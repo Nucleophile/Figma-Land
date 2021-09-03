@@ -1,0 +1,39 @@
+<header class="header">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+                <a href="">
+                    <img src="../public/images/logo.png" alt="Figma Land">
+                </a>
+            </div>
+            
+            @@include('./navbar.html')
+            
+            <div class="sign-up-mob-menu-btn d-flex align-items-center">
+                <div class="sign-up">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#sign-up-modal">Sign Up</button>
+                    <div class="modal fade" id="sign-up-modal" tabindex="-1" aria-labelledby="sign-up-modalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some input fields</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign up</button>
+                                    <button type="button" class="btn btn-primary">Registration</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="mob-menu-btn d-lg-none no-style-btn"></button>
+            </div>
+        </div>
+    </div>
+</header>

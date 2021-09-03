@@ -1,0 +1,24 @@
+//bootstrap corrections
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1050px
+);
+$primary: #0285E4;
+$secondary: #826AF9;
+$success: #2CD9C5;
+$info: #2D99FF;
+$warning: #FFE700;
+$headings-color: #000;
+$font-family-sans-serif: 'Nunito Sans', sans-serif;
+$font-family-sans-serif-2: 'Roboto', sans-serif;
+$body-color: #5C5C5C;
+$btn-font-size: rem(18);
+$btn-line-height: 1.3333;
+$input-btn-padding-x: rem(45);
+$input-padding-x: rem(28);
+$input-btn-padding-y: rem(13);
+$btn-border-radius: rem(26);
+$headings-font-weight: 700;
+$headings-margin-bottom: .625em;

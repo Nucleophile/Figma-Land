@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bredykhin test task</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../public/css/styles.css">
+</head>
+<body>
+
+    <header class="header">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+                <a href="">
+                    <img src="../public/images/logo.png" alt="Figma Land">
+                </a>
+            </div>
+            
+            <nav class="main-nav">
+    <ul class="d-sm-flex main-nav-list no-style-list">
+        <li><a href="">Home</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</nav>
+            
+            <div class="sign-up-mob-menu-btn d-flex align-items-center">
+                <div class="sign-up">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#sign-up-modal">Sign Up</button>
+                    <div class="modal fade" id="sign-up-modal" tabindex="-1" aria-labelledby="sign-up-modalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some input fields</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign up</button>
+                                    <button type="button" class="btn btn-primary">Registration</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="mob-menu-btn d-lg-none no-style-btn"></button>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <section class="fast-prototyping text-center">
+            <div class="container">
+                <h1 class="main-h1">Lightning fast prototyping</h1>
+                <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+                <a href="" class="try-for-free-btn btn btn-primary">Try For Free</a>
+                <img src="../public/images/isometric.png" class="main-img" alt="App screenshot">
+            </div>
+        </section>
+        <section class="way-to-navigate text-center">
+            <div class="container">
+                <h1>Fastest way to navigate</h1>
+                <div class="statistic-blocks text-left row flex-nowrap">
+                    <div class="col">
+                        <div class="statistic-block">
+                            <img src="../public/images/pro-icon.svg" alt="Pro icon">
+                            <h4>Design with real data</h4>
+                            <p>Ever wondered if you're too reliant on a client for work? Slate helps you identify .</p>
+                            <ul class="no-style-list">
+                                <li class="socnet-statistic">
+                                    <div class="titles d-flex justify-content-between">
+                                        <div>Facebook</div>
+                                        <div><b>35,929</b></div>
+                                    </div>
+                                    <div class="progress progress-small">
+                                        <div class="progress-bar bg-success" style="width: 35.929%" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </li>
+                                <li class="socnet-statistic">
+                                    <div class="titles d-flex justify-content-between">
+                                        <div>Twitter</div>
+                                        <div><b>28,854</b></div>
+                                    </div>
+                                    <div class="progress progress-small">
+                                        <div class="progress-bar bg-info" style="width: 28.854%" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </li>
+                                <li class="socnet-statistic">
+                                    <div class="titles d-flex justify-content-between">
+                                        <div>Behance</div>
+                                        <div><b>1,843</b></div>
+                                    </div>
+                                    <div class="progress progress-small">
+                                        <div class="progress-bar bg-secondary" style="width: 1.843%" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </li>
+                                <li class="socnet-statistic">
+                                    <div class="titles d-flex justify-content-between">
+                                        <div>Instagram</div>
+                                        <div><b>49,943</b></div>
+                                    </div>
+                                    <div class="progress progress-small">
+                                        <div class="progress-bar bg-warning" style="width: 49.943%" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="statistic-block">
+                            <img src="../public/images/calendar-icon.svg" alt="Calendar icon">
+                            <h4>Work at the speed of thought.</h4>
+                            <p>Ever wondered if you're too reliant on a client for work? Slate helps you identify .</p>
+                            <div class="circle-chart text-center">
+                                <img src="../public/images/circles-chart.svg" alt="Circle chart">
+                                <div class="text">
+                                    <div class="sum"><b>$73,994</b></div>
+                                    <div class="title">Facebook</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="btn btn-lightest">Try For Free</a>
+            </div>
+        </section>
+        <section class="opentype-features text-center text-lg-left">
+            <div class="container">
+                <div class="d-lg-flex align-items-lg-center">
+                    <div class="scroll-animation fade-in slide-in-left">
+                        <h1>OpenType features and Variable fonts</h1>
+                        <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+                        <form action="">
+                            <div class="subscribe-form d-md-flex justify-content-md-center justify-content-lg-start">
+                                <input type="email" placeholder="Enter Your Adress Email">
+                                <button class="btn btn-primary">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="img-block scroll-animation fade-in slide-in-right">
+                        <img src="../public/images/mobile-screen.png" alt="Mobile screenshot">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="together-better text-center">
+            <div class="container">
+                <div class="content">
+                    <h1>Work better together</h1>
+                    <p>Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance business less stressful. We'd love to show you what we're building...</p>
+                    <div>
+                        <div class="socnet-statistic">
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" style="width: 35.929%" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="titles d-flex justify-content-between">
+                                <div>Facebook</div>
+                                <div><b>35,929</b></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Try For Free</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="d-md-flex justify-content-md-between align-items-md-center text-center text-md-left">
+            <div class="footer-logo">
+                <a href="">
+                    <img src="../public/images/logo-dark-theme.png" alt="Figma Land">
+                </a>
+            </div>
+            <ul class="socials-list no-style-list d-flex align-items-center justify-content-center">
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            <div class="probably-copyrights text-md-right">Just type what's on your mind and we'll</div>
+        </div>
+    </div>
+</footer>
+
+    <script src="../public/js/vendor.min.js"></script>
+    <script src="../public/js/main.min.js"></script>
+    <script src="https://kit.fontawesome.com/e2f76f3e82.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
